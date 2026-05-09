@@ -1,1 +1,373 @@
+1. Masalah Nyata di Salon Saat Ini
 
+Banyak salon masih memakai:
+
+* WhatsApp manual
+* Catatan buku
+* Google Calendar terpisah
+* Admin yang kewalahan
+
+Akibatnya:
+
+* Double booking
+* Pelanggan lupa jadwal
+* Stylist bentrok
+* Sulit menghitung omzet
+* Tidak ada data pelanggan loyal
+
+Ini alasan utama kenapa sistem booking salon punya value nyata.
+
+---
+
+2. Target Pengguna yang Realistis
+
+## A. Pemilik Salon Kecil–Menengah
+
+Ciri:
+
+* 2–15 pegawai
+* Booking lewat WA
+* Belum punya sistem
+
+Kebutuhan:
+
+* Jadwal otomatis
+* Reminder pelanggan
+* Laporan pemasukan
+* Manajemen stylist
+
+Ini market paling potensial.
+
+---
+
+## B. Pelanggan Salon
+
+Kebutuhan nyata:
+
+* Bisa pilih stylist
+* Tahu slot kosong
+* Tidak antre lama
+* Bisa reschedule
+* Booking malam hari tanpa chat admin
+
+Mayoritas pengguna suka:
+
+* cepat
+* simpel
+* mobile-first
+
+---
+
+# 3. Fitur yang Benar-Benar Dipakai
+
+## Fitur Prioritas Tinggi
+
+### 1. Booking Jadwal
+
+Paling penting.
+
+Flow realistis:
+
+1. Pilih layanan
+2. Pilih stylist
+3. Pilih jam
+4. Isi data
+5. Konfirmasi otomatis
+
+---
+
+### 2. Kalender Stylist
+
+Salon sangat butuh:
+
+* siapa sibuk
+* siapa kosong
+* durasi treatment
+
+Contoh:
+
+* Hair coloring = 3 jam
+* Potong rambut = 30 menit
+
+Sistem harus otomatis block waktu.
+
+---
+
+### 3. Reminder WhatsApp
+
+Sangat penting di Indonesia.
+
+Karena:
+
+* Banyak pelanggan lupa
+* No-show tinggi
+
+Reminder:
+
+* H-1
+* 2 jam sebelum booking
+
+Ini bisa mengurangi no-show sampai signifikan.
+
+---
+
+### 4. Dashboard Admin
+
+Pemilik salon ingin lihat:
+
+* omzet harian
+* stylist terlaris
+* layanan terlaris
+* jumlah booking
+
+---
+
+### 5. Riwayat Pelanggan
+
+Value besar:
+
+* warna rambut terakhir
+* treatment sebelumnya
+* alergi produk
+* kebiasaan pelanggan
+
+Ini membuat pelanggan merasa “diingat”.
+
+---
+
+# 4. Fitur yang Sering Dibuat Tapi Jarang Dipakai
+
+## A. Chat Internal
+
+Biasanya akhirnya tetap pakai:
+
+* WhatsApp
+
+Jadi jangan over-engineering.
+
+---
+
+## B. Gamification Berlebihan
+
+Seperti:
+
+* badge
+* level
+* avatar
+
+Tidak terlalu penting untuk MVP.
+
+---
+
+## C. AI Recommendation Rumit
+
+Salon kecil lebih peduli:
+
+* booking lancar
+* pembayaran jelas
+
+Bukan AI canggih dulu.
+
+---
+
+# 5. Model Bisnis yang Paling Masuk Akal
+
+## Opsi 1 — Subscription Bulanan
+
+Paling realistis.
+
+Contoh:
+
+* Basic: Rp99k/bulan
+* Pro: Rp299k/bulan
+
+Karena salon suka biaya tetap.
+
+---
+
+## Opsi 2 — Fee per Booking
+
+Biasanya kurang disukai salon kecil.
+
+Karena:
+
+* margin mereka tidak besar
+* terasa “dipotong”
+
+---
+
+## Opsi 3 — Hybrid
+
+Subscription + WhatsApp API premium.
+
+Ini cukup realistis.
+
+---
+
+# 6. Tantangan Nyata Saat Implementasi
+
+## A. Pemilik Salon Gaptek
+
+Maka:
+
+* UI harus sangat sederhana
+* jangan terlalu banyak menu
+
+---
+
+## B. Internet Tidak Stabil
+
+Harus:
+
+* cepat
+* ringan
+* mobile optimized
+
+---
+
+## C. Pegawai Sering Ganti
+
+Maka:
+
+* role management penting
+* login mudah
+
+---
+
+## D. Kebiasaan Pelanggan Masih WA
+
+Solusi realistis:
+
+* booking link dari WA
+* bukan memaksa install app
+
+---
+
+# 7. Strategi Produk yang Paling Masuk Akal
+
+## MVP yang realistis
+
+Cukup:
+
+* booking
+* kalender
+* reminder
+* dashboard sederhana
+
+Jangan langsung:
+
+* marketplace
+* AI
+* loyalty kompleks
+
+---
+
+# 8. Teknologi yang Cocok
+
+## Frontend
+
+* Next.js
+* Tailwind
+
+Karena:
+
+* cepat
+* SEO bagus
+* mobile friendly
+
+---
+
+## Backend
+
+* Node.js / NestJS
+  atau
+* Laravel
+
+Laravel sangat cocok untuk:
+
+* development cepat
+* tim kecil di Indonesia
+
+---
+
+## Database
+
+* PostgreSQL
+
+Karena relasi booking cukup kompleks.
+
+---
+
+## Integrasi Penting
+
+* WhatsApp API
+* Midtrans / Xendit
+* Google Calendar
+
+---
+
+# 9. Struktur Database Realistis
+
+Tabel inti:
+
+* users
+* salons
+* stylists
+* services
+* bookings
+* schedules
+* payments
+* customers
+
+Relasi penting:
+
+* 1 stylist punya banyak booking
+* booking punya durasi
+* booking punya status
+
+---
+
+# 10. Risiko Bisnis Nyata
+
+## Risiko terbesar:
+
+### salon kembali ke WhatsApp manual
+
+Karena itu sistem harus:
+
+* lebih cepat daripada chat manual
+* bukan lebih ribet
+
+Kalau booking butuh terlalu banyak klik:
+pengguna akan kembali WA.
+
+---
+
+# 11. Peluang Besar
+
+Masih banyak salon:
+
+* belum digital
+* tidak punya website
+* tidak punya sistem booking
+
+Apalagi di kota tier 2 dan tier 3 di Indonesia.
+
+Ini peluang besar untuk SaaS niche.
+
+---
+
+# 12. Kesimpulan Praktis
+
+Kalau ingin web booking salon berhasil di dunia nyata:
+
+Fokus utama:
+
+* mengurangi admin manual
+* mengurangi no-show
+* mempercepat booking
+* mempermudah jadwal stylist
+
+Bukan membuat fitur yang “terlihat canggih”.
+
+Produk yang sederhana tapi stabil biasanya lebih laku dibanding sistem kompleks yang sulit dipakai.
