@@ -1,1 +1,429 @@
+# Laporan Desain UI/UX Web Booking Salon
 
+## 1. Pendahuluan
+
+Desain UI/UX untuk web booking salon harus dibuat berdasarkan perilaku nyata pengguna:
+
+* pelanggan ingin booking cepat
+* admin ingin mudah mengatur jadwal
+* pemilik salon ingin melihat laporan bisnis
+
+Karena mayoritas pengguna di Indonesia memakai smartphone, desain harus:
+
+* mobile-first
+* sederhana
+* cepat dipahami
+* minim klik
+
+---
+
+# 2. Tujuan Desain
+
+Tujuan utama desain:
+
+1. Mempermudah proses booking
+2. Mengurangi antrean manual
+3. Membantu admin mengelola jadwal
+4. Memberikan pengalaman modern dan profesional
+5. Mengurangi kesalahan jadwal
+
+---
+
+# 3. Target Pengguna
+
+## A. Pelanggan
+
+Karakteristik:
+
+* usia 18–40 tahun
+* sering memakai WhatsApp
+* terbiasa scrolling cepat
+* tidak suka form panjang
+
+Kebutuhan:
+
+* booking cepat
+* lihat slot kosong
+* pilih stylist
+* reminder otomatis
+
+---
+
+## B. Admin Salon
+
+Kebutuhan:
+
+* melihat semua booking
+* ubah jadwal cepat
+* konfirmasi pembayaran
+* kelola stylist
+
+---
+
+## C. Pemilik Salon
+
+Kebutuhan:
+
+* laporan omzet
+* performa stylist
+* statistik pelanggan
+
+---
+
+# 4. Konsep Desain
+
+## Tema Desain
+
+Konsep:
+
+* elegan
+* modern
+* bersih
+* feminin namun profesional
+
+Inspirasi:
+
+* salon premium modern
+* aplikasi booking masa kini
+
+---
+
+# 5. Gaya Visual
+
+## Warna Utama
+
+### Primary Color
+
+* Soft Pink / Rose Gold
+* Memberikan kesan beauty dan elegan
+
+Contoh:
+
+* #E8B4B8
+* #D4A373
+
+---
+
+### Secondary Color
+
+* Putih
+* Cream
+* Abu muda
+
+Agar:
+
+* nyaman dilihat
+* tidak terlalu ramai
+
+---
+
+### Accent Color
+
+* Hitam lembut
+* Gold
+
+Untuk:
+
+* tombol penting
+* highlight premium
+
+---
+
+# 6. Typography
+
+Font yang cocok:
+
+* Poppins
+* Inter
+* Montserrat
+
+Karena:
+
+* modern
+* clean
+* mudah dibaca di mobile
+
+---
+
+# 7. Struktur Halaman
+
+# A. Landing Page
+
+## Tujuan
+
+Menarik pelanggan dan memperjelas layanan salon.
+
+## Komponen:
+
+### Hero Section
+
+Isi:
+
+* foto salon
+* slogan
+* tombol “Book Now”
+
+---
+
+### Layanan Populer
+
+Contoh:
+
+* Haircut
+* Hair Coloring
+* Creambath
+* Nail Art
+
+---
+
+### Stylist Section
+
+Menampilkan:
+
+* foto stylist
+* pengalaman
+* rating
+
+---
+
+### Testimoni
+
+Meningkatkan kepercayaan pelanggan.
+
+---
+
+### Footer
+
+Berisi:
+
+* alamat
+* jam buka
+* media sosial
+
+---
+
+# B. Halaman Booking
+
+## Alur Booking
+
+### Step 1 — Pilih Layanan
+
+UI:
+
+* card service
+* harga
+* durasi
+
+---
+
+### Step 2 — Pilih Stylist
+
+Menampilkan:
+
+* foto
+* spesialisasi
+* jadwal tersedia
+
+---
+
+### Step 3 — Pilih Tanggal dan Jam
+
+Menggunakan:
+
+* kalender interaktif
+* slot waktu
+
+---
+
+### Step 4 — Konfirmasi
+
+Isi:
+
+* detail booking
+* total harga
+* tombol bayar
+
+---
+
+# C. Dashboard Admin
+
+## Fitur:
+
+* kalender booking
+* daftar pelanggan
+* manajemen layanan
+* laporan transaksi
+
+---
+
+## Layout
+
+Sidebar kiri:
+
+* Dashboard
+* Booking
+* Stylist
+* Customer
+* Report
+
+Konten utama:
+
+* statistik
+* jadwal
+* aktivitas terbaru
+
+---
+
+# 8. Prinsip UX yang Digunakan
+
+## A. Simple Navigation
+
+Karena user salon tidak ingin ribet.
+
+---
+
+## B. Minimal Input
+
+Mengurangi:
+
+* form panjang
+* terlalu banyak step
+
+---
+
+## C. Mobile First
+
+Mayoritas booking dari HP.
+
+---
+
+## D. Fast Interaction
+
+Tombol besar dan mudah ditekan.
+
+---
+
+# 9. Wireframe Sederhana
+
+## Landing Page
+
+```text
+------------------------------------------------
+LOGO              MENU
+------------------------------------------------
+     HERO IMAGE + BOOK NOW BUTTON
+------------------------------------------------
+     LAYANAN POPULER
+------------------------------------------------
+     STYLIST
+------------------------------------------------
+     TESTIMONI
+------------------------------------------------
+     FOOTER
+------------------------------------------------
+```
+
+---
+
+## Booking Page
+
+```text
+--------------------------------
+Pilih Layanan
+--------------------------------
+Pilih Stylist
+--------------------------------
+Pilih Tanggal
+--------------------------------
+Pilih Jam
+--------------------------------
+Konfirmasi
+--------------------------------
+```
+
+---
+
+# 10. Desain Responsif
+
+## Mobile
+
+Fokus:
+
+* tombol besar
+* satu kolom
+* sticky booking button
+
+---
+
+## Tablet
+
+Menggunakan:
+
+* grid 2 kolom
+
+---
+
+## Desktop
+
+Menggunakan:
+
+* sidebar
+* dashboard lebih luas
+
+---
+
+# 11. Ikon dan Visual
+
+Gunakan:
+
+* ikon outline modern
+* ilustrasi clean
+* foto salon berkualitas tinggi
+
+Hindari:
+
+* terlalu banyak animasi
+* tampilan ramai
+
+---
+
+# 12. Rekomendasi Teknologi UI
+
+## Frontend
+
+* Next.js
+* Tailwind CSS
+
+---
+
+## UI Library
+
+* Shadcn UI
+* Material UI
+
+---
+
+## Kalender Booking
+
+* FullCalendar
+  atau
+* React Big Calendar
+
+---
+
+# 13. Kesimpulan
+
+Desain web booking salon yang efektif harus:
+
+* sederhana
+* cepat digunakan
+* fokus pada booking
+* nyaman di mobile
+* mudah dipahami admin salon
+
+Prioritas utama desain bukan hanya estetika, tetapi:
+
+* efisiensi
+* kemudahan penggunaan
+* pengurangan kesalahan jadwal
+* peningkatan kenyamanan pelanggan.
