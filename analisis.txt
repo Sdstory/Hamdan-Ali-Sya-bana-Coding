@@ -1,1 +1,223 @@
+Analisis web layanan pemesanan (booking/reservasi online) menunjukkan bahwa pasar terus tumbuh karena peningkatan transaksi digital, mobile usage, dan kebutuhan otomatisasi layanan. Di Indonesia, platform seperti Traveloka, Agoda, Booking.com, dan tiket.com masih mendominasi sektor travel & hospitality. ([novastacks-ai.com][1])
 
+## 1. Pengertian Web Layanan Pemesanan
+
+Web layanan pemesanan adalah sistem berbasis web yang memungkinkan pengguna melakukan:
+
+* reservasi produk/jasa,
+* pembayaran online,
+* pengecekan ketersediaan real-time,
+* konfirmasi otomatis.
+
+Contoh:
+
+* hotel booking,
+* tiket wisata,
+* reservasi restoran,
+* appointment salon/barbershop,
+* booking lapangan olahraga,
+* rental kendaraan.
+
+Penelitian pada sistem booking penginapan menunjukkan bahwa digitalisasi booking membantu mengurangi double booking, mempercepat konfirmasi, dan memperluas pemasaran digital. ([ResearchGate][2])
+
+---
+
+# 2. Fitur Utama Web Pemesanan
+
+| Fitur                       | Fungsi                    |
+| --------------------------- | ------------------------- |
+| Registrasi/Login            | Identitas pelanggan       |
+| Kalender Booking            | Memilih tanggal & jam     |
+| Real-time Availability      | Menampilkan slot tersedia |
+| Payment Gateway             | Pembayaran otomatis       |
+| Email/WhatsApp Notification | Konfirmasi booking        |
+| Dashboard Admin             | Kelola reservasi          |
+| Review & Rating             | Meningkatkan trust        |
+| Mobile Responsive           | Optimal di HP             |
+
+---
+
+# 3. Analisis Kebutuhan Sistem
+
+## A. Kebutuhan Pengguna
+
+Pengguna menginginkan:
+
+* proses cepat,
+* tampilan sederhana,
+* pembayaran aman,
+* konfirmasi instan.
+
+Masalah umum:
+
+* UI membingungkan,
+* pembayaran lambat,
+* customer service lambat,
+* sistem error saat traffic tinggi. ([Ejournal Upbatam][3])
+
+## B. Kebutuhan Bisnis
+
+Pemilik usaha membutuhkan:
+
+* otomatisasi reservasi,
+* laporan transaksi,
+* integrasi pembayaran,
+* promosi digital,
+* pengurangan pekerjaan manual.
+
+---
+
+# 4. Analisis UI/UX
+
+## Faktor penting:
+
+### a. Kecepatan
+
+User meninggalkan web lambat >3 detik.
+
+### b. Mobile First
+
+Mayoritas traffic booking berasal dari smartphone. Data Indonesia menunjukkan dominasi traffic mobile pada sektor travel & hospitality. ([Semrush][4])
+
+### c. Proses Booking Singkat
+
+Ideal:
+
+1. pilih layanan,
+2. pilih jadwal,
+3. bayar,
+4. selesai.
+
+---
+
+# 5. Analisis Teknologi
+
+## Frontend
+
+* React
+* Next.js
+* Vue
+
+## Backend
+
+* Laravel
+* Node.js
+* Django
+
+## Database
+
+* MySQL
+* PostgreSQL
+
+## Integrasi Penting
+
+* Midtrans/Xendit
+* WhatsApp API
+* Google Calendar
+* QRIS
+
+---
+
+# 6. Analisis Keamanan
+
+Web booking wajib memiliki:
+
+* SSL/HTTPS,
+* proteksi SQL Injection,
+* autentikasi aman,
+* backup database,
+* enkripsi pembayaran.
+
+Karena transaksi digital Indonesia terus meningkat, keamanan menjadi faktor utama kepercayaan pengguna. ([Reddit][5])
+
+---
+
+# 7. Analisis Kompetitor
+
+## Travel & Hospitality Indonesia
+
+Platform paling dominan:
+
+1. Traveloka
+2. Trip.com
+3. Agoda
+4. Booking.com
+5. Airbnb
+
+Traffic terbesar di Indonesia masih dipimpin Traveloka. ([Semrush][4])
+
+## Faktor kemenangan kompetitor:
+
+* aplikasi cepat,
+* promo,
+* metode pembayaran lengkap,
+* customer support,
+* AI recommendation,
+* loyalty program.
+
+---
+
+# 8. SWOT Analysis
+
+| Strength         | Weakness            |
+| ---------------- | ------------------- |
+| Booking otomatis | Butuh maintenance   |
+| Praktis & cepat  | Bergantung internet |
+| Bisa 24 jam      | Risiko server down  |
+
+| Opportunity                 | Threat                   |
+| --------------------------- | ------------------------ |
+| Transaksi digital meningkat | Kompetitor besar         |
+| UMKM mulai digitalisasi     | Cyber attack             |
+| QRIS makin populer          | Perubahan tren teknologi |
+
+---
+
+# 9. Tren Web Booking 2026
+
+Tren terbaru:
+
+* AI chatbot booking,
+* pembayaran QRIS,
+* voice booking,
+* personalized recommendation,
+* integrasi WhatsApp,
+* cloud booking system.
+
+Riset vendor booking AI menunjukkan penggunaan AI dapat meningkatkan conversion rate hingga 15–25%. ([Travel AI Agent][6])
+
+---
+
+# 10. Kesimpulan
+
+Web layanan pemesanan menjadi solusi penting dalam digitalisasi bisnis karena:
+
+* mempercepat proses reservasi,
+* meningkatkan efisiensi operasional,
+* memperluas pasar,
+* meningkatkan kepuasan pelanggan.
+
+Keberhasilan sistem booking dipengaruhi oleh:
+
+* UI/UX sederhana,
+* kecepatan sistem,
+* keamanan transaksi,
+* mobile optimization,
+* integrasi pembayaran digital.
+
+Jika mau, saya juga bisa bantu:
+
+* analisis SWOT lebih detail,
+* contoh ERD/database booking,
+* flowchart sistem pemesanan,
+* analisis kebutuhan fungsional & nonfungsional,
+* proposal tugas kuliah,
+* contoh BAB 1–BAB 5 skripsi,
+* wireframe UI booking system.
+
+[1]: https://www.novastacks-ai.com/audit/www-tiket-com/ "https://www.novastacks-ai.com/audit/www-tiket-com/"
+[2]: https://www.researchgate.net/publication/400507912_Pengembangan_Sistem_Informasi_Booking_Web_untuk_Layanan_Katilu_Nature_Lodge "https://www.researchgate.net/publication/400507912_Pengembangan_Sistem_Informasi_Booking_Web_untuk_Layanan_Katilu_Nature_Lodge"
+[3]: https://ejournal.upbatam.ac.id/index.php/cbis/article/download/10636/4700/47156 "https://ejournal.upbatam.ac.id/index.php/cbis/article/download/10636/4700/47156"
+[4]: https://www.semrush.com/trending-websites/id/travel-and-tourism "https://www.semrush.com/trending-websites/id/travel-and-tourism"
+[5]: https://www.reddit.com/r/indonesia/comments/1rjkj86/transaksi_digital_perbankan_diproyeksi_melonjak/ "https://www.reddit.com/r/indonesia/comments/1rjkj86/transaksi_digital_perbankan_diproyeksi_melonjak/"
+[6]: https://www.travelaiagent.com/research/booking-reservation-vendor-benchmark-2026 "https://www.travelaiagent.com/research/booking-reservation-vendor-benchmark-2026"
